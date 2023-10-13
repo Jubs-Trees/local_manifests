@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!--remotes -->
+    <remote name="Jubs"    fetch="https://github.com/Jubs-Trees" />
+
+    <!--Device Tree -->
+    <project name="device_samsung_beyond0lte"        path="device/samsung/beyond0lte"        remote="Jubs"  revision="thirteen" />
+    <project name="device_samsung_beyond1lte"        path="device/samsung/beyond1lte"        remote="Jubs"  revision="thirteen" />
+    <project name="device_samsung_beyond2lte"        path="device/samsung/beyond2lte"        remote="Jubs"  revision="thirteen" />
+    <project name="device_samsung_beyondx"           path="device/samsung/beyondx"           remote="Jubs"  revision="thirteen" />
+    <project name="device_samsung_d1"                path="device/samsung/d1"                remote="Jubs"  revision="thirteen" />
+    <project name="device_samsung_d2s"               path="device/samsung/d2s"               remote="Jubs"  revision="thirteen" />
+    <project name="device_samsung_d2x"               path="device/samsung/d2x"               remote="Jubs"  revision="thirteen" />
+    <project name="device_samsung_f62"               path="device/samsung/f62"               remote="Jubs"  revision="thirteen" />
+    <project name="device_samsung_exynos9820-common" path="device/samsung/exynos9820-common" remote="Jubs"  revision="thirteen" /> 
+    <project name="device_samsung_slsi_sepolicy"     path="device/samsung_slsi/sepolicy"     remote="Jubs"  revision="thirteen" />
+
+    <!--Vendor Tree -->
+    <project name="vendor_samsung_beyond0lte"        path="vendor/samsung/beyond0lte"        remote="Jubs"  revision="thirteen" clone-depth="1" />
+    <project name="vendor_samsung_beyond1lte"        path="vendor/samsung/beyond1lte"        remote="Jubs"  revision="thirteen" clone-depth="1" />
+    <project name="vendor_samsung_beyond2lte"        path="vendor/samsung/beyond2lte"        remote="Jubs"  revision="thirteen" clone-depth="1" />
+    <project name="vendor_samsung_beyondx"           path="vendor/samsung/beyondx"           remote="Jubs"  revision="thirteen" clone-depth="1" />
+    <project name="vendor_samsung_d1"                path="vendor/samsung/d1"                remote="Jubs"  revision="thirteen" clone-depth="1" />
+    <project name="vendor_samsung_d2s"               path="vendor/samsung/d2s"               remote="Jubs"  revision="thirteen" clone-depth="1" />
+    <project name="vendor_samsung_d2x"               path="vendor/samsung/d2x"               remote="Jubs"  revision="thirteen" clone-depth="1" />
+    <project name="vendor_samsung_f62"               path="vendor/samsung/f62"               remote="Jubs"  revision="thirteen" clone-depth="1" />
+    <project name="vendor_samsung_exynos9820-common" path="vendor/samsung/exynos9820-common" remote="Jubs"  revision="thirteen" clone-depth="1" />
+
+    <!--Kernel Tree-->
+    <project name="kernel_samsung_exynos9820"        path="kernel/samsung/exynos9820"        remote="Jubs"  revision="thirteen" clone-depth="1" />
+
+    <!--Samsung HALs-->
+    <project name="hardware_samsung"                       path="hardware/samsung"                       remote="Jubs"  revision="thirteen" clone-depth="1" />
+    <project name="hardware_samsung_slsi-linaro_config"    path="hardware/samsung_slsi-linaro/config"    remote="Jubs"  revision="thirteen" clone-depth="1" />
+    <project name="hardware_samsung_slsi-linaro_exynos"    path="hardware/samsung_slsi-linaro/exynos"    remote="Jubs"  revision="thirteen" clone-depth="1" />
+    <project name="hardware_samsung_slsi-linaro_exynos5"   path="hardware/samsung_slsi-linaro/exynos5"   remote="Jubs"  revision="thirteen" clone-depth="1" />
+    <project name="hardware_samsung_slsi-linaro_graphics"  path="hardware/samsung_slsi-linaro/graphics"  remote="Jubs"  revision="thirteen" clone-depth="1" />
+    <project name="hardware_samsung_slsi-linaro_openmax"   path="hardware/samsung_slsi-linaro/openmax"   remote="Jubs"  revision="thirteen" clone-depth="1" />
+
+    <!--Extras-->
+    <project name="vendor_lineage_compat"            path="vendor/lineage/compat"             remote="Jubs"  revision="thirteen" />
+
+</manifest>
